@@ -1,0 +1,5 @@
+package HandTypes
+
+class OnePair {
+
+}
