@@ -12,7 +12,7 @@ class Hand (cards: List[Card]) {
     }
   }
 
-  // other evaluations. ie Valid CardHand.Hand, Same suit, consecutive numbers, grouping (for pair, three of kind and four of kind)
+  // other evaluations. ie Valid CardHand.Hand, Same suit, consecutive cards, grouping (for pair, three of kind and four of kind)
   def isValidHand: Boolean = cards.length == 5
 
   def isSameSuit: Boolean = {
@@ -20,7 +20,7 @@ class Hand (cards: List[Card]) {
       .toList.length == 1
   }
 
-  def consecutiveNumbers: Boolean = {
+  def consecutiveCards: Boolean = {
     val sortedCards = sortedHand.map(_.faceValue)
 
     (sortedCards.max to sortedCards.min by -1).toList == sortedCards
