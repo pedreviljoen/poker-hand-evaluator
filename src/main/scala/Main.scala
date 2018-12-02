@@ -16,7 +16,7 @@ object Main extends App {
 
     println("---------------------------------------------------------")
     println("Hand output: ")
-    println(hand.evaluate(hand))
+    println(hand.evaluate(hand)._2.toString)
   }
 
   main
