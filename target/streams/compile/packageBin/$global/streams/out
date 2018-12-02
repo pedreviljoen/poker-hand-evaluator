@@ -1,0 +1,65 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging /Users/pedre/Documents/Side Projects/scala/poker-hand-evaluator/target/scala-2.12/poker-hand-evaluator_2.12-0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HandTypes/Straight.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/pedre/Documents/Side Projects/scala/poker-hand-evaluator/target/scala-2.12/classes/HandTypes/Straight.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CardHand/Hand.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/pedre/Documents/Side Projects/scala/poker-hand-evaluator/target/scala-2.12/classes/CardHand/Hand.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HandTypes/FourOfKind$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/pedre/Documents/Side Projects/scala/poker-hand-evaluator/target/scala-2.12/classes/HandTypes/FourOfKind$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CardHand/HandType.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/pedre/Documents/Side Projects/scala/poker-hand-evaluator/target/scala-2.12/classes/CardHand/HandType.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HandTypes/FourOfKind.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/pedre/Documents/Side Projects/scala/poker-hand-evaluator/target/scala-2.12/classes/HandTypes/FourOfKind.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HandTypes/ThreeOfKind$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/pedre/Documents/Side Projects/scala/poker-hand-evaluator/target/scala-2.12/classes/HandTypes/ThreeOfKind$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HandTypes/TwoPair$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/pedre/Documents/Side Projects/scala/poker-hand-evaluator/target/scala-2.12/classes/HandTypes/TwoPair$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HandTypes/ThreeOfKind.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/pedre/Documents/Side Projects/scala/poker-hand-evaluator/target/scala-2.12/classes/HandTypes/ThreeOfKind.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HandTypes/HighCard.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/pedre/Documents/Side Projects/scala/poker-hand-evaluator/target/scala-2.12/classes/HandTypes/HighCard.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/pedre/Documents/Side Projects/scala/poker-hand-evaluator/target/scala-2.12/classes/Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HandTypes/Flush$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/pedre/Documents/Side Projects/scala/poker-hand-evaluator/target/scala-2.12/classes/HandTypes/Flush$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HandTypes/OnePair$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/pedre/Documents/Side Projects/scala/poker-hand-evaluator/target/scala-2.12/classes/HandTypes/OnePair$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HandTypes/Straight$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/pedre/Documents/Side Projects/scala/poker-hand-evaluator/target/scala-2.12/classes/HandTypes/Straight$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CardHand/Hand$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/pedre/Documents/Side Projects/scala/poker-hand-evaluator/target/scala-2.12/classes/CardHand/Hand$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CardHand/Hand$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/pedre/Documents/Side Projects/scala/poker-hand-evaluator/target/scala-2.12/classes/CardHand/Hand$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CardHand/Card.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/pedre/Documents/Side Projects/scala/poker-hand-evaluator/target/scala-2.12/classes/CardHand/Card.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HandTypes[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/pedre/Documents/Side Projects/scala/poker-hand-evaluator/target/scala-2.12/classes/HandTypes[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HandTypes/Flush.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/pedre/Documents/Side Projects/scala/poker-hand-evaluator/target/scala-2.12/classes/HandTypes/Flush.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HandTypes/OnePair.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/pedre/Documents/Side Projects/scala/poker-hand-evaluator/target/scala-2.12/classes/HandTypes/OnePair.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HandTypes/TwoPair.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/pedre/Documents/Side Projects/scala/poker-hand-evaluator/target/scala-2.12/classes/HandTypes/TwoPair.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CardHand/Card$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/pedre/Documents/Side Projects/scala/poker-hand-evaluator/target/scala-2.12/classes/CardHand/Card$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CardHand/Hands.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/pedre/Documents/Side Projects/scala/poker-hand-evaluator/target/scala-2.12/classes/CardHand/Hands.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CardHand[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/pedre/Documents/Side Projects/scala/poker-hand-evaluator/target/scala-2.12/classes/CardHand[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HandTypes/FullHouse.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/pedre/Documents/Side Projects/scala/poker-hand-evaluator/target/scala-2.12/classes/HandTypes/FullHouse.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/pedre/Documents/Side Projects/scala/poker-hand-evaluator/target/scala-2.12/classes/Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HandTypes/HighCard$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/pedre/Documents/Side Projects/scala/poker-hand-evaluator/target/scala-2.12/classes/HandTypes/HighCard$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HandTypes/FullHouse$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/pedre/Documents/Side Projects/scala/poker-hand-evaluator/target/scala-2.12/classes/HandTypes/FullHouse$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HandTypes/StraightFlush.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/pedre/Documents/Side Projects/scala/poker-hand-evaluator/target/scala-2.12/classes/HandTypes/StraightFlush.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CardHand/Hand$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/pedre/Documents/Side Projects/scala/poker-hand-evaluator/target/scala-2.12/classes/CardHand/Hand$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CardHand/Hands$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/pedre/Documents/Side Projects/scala/poker-hand-evaluator/target/scala-2.12/classes/CardHand/Hands$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HandTypes/StraightFlush$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/pedre/Documents/Side Projects/scala/poker-hand-evaluator/target/scala-2.12/classes/HandTypes/StraightFlush$.class[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m

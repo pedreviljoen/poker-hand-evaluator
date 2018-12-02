@@ -1,6 +1,6 @@
 package CardHand
 
-class Hand (cards: List[Card]) {
+class Hand (val cards: List[Card]) {
   // sort hand according to value of face. A -> K -> Q -> J etc...
   def sortedHand: List[Card] = cards.sortWith(_.faceValue > _.faceValue)
 

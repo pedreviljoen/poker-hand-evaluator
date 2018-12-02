@@ -9,7 +9,7 @@
 		extra-sbtVersion="1.0"
 		conf="provided"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20181201110630"/>
+		date="20181202124309"/>
 	<dependencies>
 		<module organisation="org.scala-sbt" name="sbt">
 			<revision name="1.2.7" status="release" pubdate="20181130213828" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sbt/sbt" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
@@ -108,9 +108,9 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.logging.log4j" name="log4j-slf4j-impl">
-			<revision name="2.11.1" status="release" pubdate="20180723054707" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="75">
+			<revision name="2.11.1" status="release" pubdate="20180723054707" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="75">
 				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="10158" time="605" location="/Users/pedre/.ivy2/cache/org.apache.logging.log4j/log4j-slf4j-impl/ivy-2.11.1.xml" searched="true" original-local-location="/Users/pedre/.ivy2/cache/org.apache.logging.log4j/log4j-slf4j-impl/ivy-2.11.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j-impl/2.11.1/log4j-slf4j-impl-2.11.1.pom"/>
+				<metadata-artifact status="no" details="" size="30458" time="0" location="/Users/pedre/.ivy2/cache/org.apache.logging.log4j/log4j-slf4j-impl/ivy-2.11.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j-impl/2.11.1/log4j-slf4j-impl-2.11.1.pom"/>
 				<caller organisation="org.scala-sbt" name="main_2.12" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="1.2.7"/>
 				<artifacts>
 					<artifact name="log4j-slf4j-impl" type="jar" ext="jar" status="no" details="" size="23241" time="0" location="/Users/pedre/.ivy2/cache/org.apache.logging.log4j/log4j-slf4j-impl/jars/log4j-slf4j-impl-2.11.1.jar">
@@ -854,9 +854,9 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.logging.log4j" name="log4j-core">
-			<revision name="2.11.1" status="release" pubdate="20180723054619" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+			<revision name="2.11.1" status="release" pubdate="20180723054619" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
 				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="23187" time="606" location="/Users/pedre/.ivy2/cache/org.apache.logging.log4j/log4j-core/ivy-2.11.1.xml" searched="true" original-local-location="/Users/pedre/.ivy2/cache/org.apache.logging.log4j/log4j-core/ivy-2.11.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.11.1/log4j-core-2.11.1.pom"/>
+				<metadata-artifact status="no" details="" size="36033" time="0" location="/Users/pedre/.ivy2/cache/org.apache.logging.log4j/log4j-core/ivy-2.11.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.11.1/log4j-core-2.11.1.pom"/>
 				<caller organisation="org.scala-sbt" name="util-logging_2.12" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="1.2.4"/>
 				<caller organisation="org.apache.logging.log4j" name="log4j-slf4j-impl" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="2.11.1"/>
 				<caller organisation="org.scala-sbt" name="main_2.12" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="1.2.7"/>
@@ -895,9 +895,9 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.logging.log4j" name="log4j-api">
-			<revision name="2.11.1" status="release" pubdate="20180723054454" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="23">
+			<revision name="2.11.1" status="release" pubdate="20180723054454" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="23">
 				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="13763" time="812" location="/Users/pedre/.ivy2/cache/org.apache.logging.log4j/log4j-api/ivy-2.11.1.xml" searched="true" original-local-location="/Users/pedre/.ivy2/cache/org.apache.logging.log4j/log4j-api/ivy-2.11.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.11.1/log4j-api-2.11.1.pom"/>
+				<metadata-artifact status="no" details="" size="30637" time="0" location="/Users/pedre/.ivy2/cache/org.apache.logging.log4j/log4j-api/ivy-2.11.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.11.1/log4j-api-2.11.1.pom"/>
 				<caller organisation="org.scala-sbt" name="util-logging_2.12" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="1.2.4"/>
 				<caller organisation="org.scala-sbt" name="main_2.12" conf="compile, runtime" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="1.2.7"/>
 				<artifacts>

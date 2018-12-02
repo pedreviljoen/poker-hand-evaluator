@@ -2,7 +2,9 @@ package CardHand
 
 import scala.util.matching.Regex
 
-case class Card(card: String) {
+class Card(card: String) {
+  require(isValid, "Invalid card specification")
+
   def face: String = {
     card.substring(0,1)
   }
@@ -16,7 +18,7 @@ case class Card(card: String) {
   }
 
   def isValid: Boolean = {
-    new Regex("[2-10JQKA]{1}[HDCS]{1}").findAllIn(card).length > 0
+    new Regex("[2-9TJQKA]{1}[HDCS]{1}").findAllIn(card).length > 0
   }
 }
 
@@ -29,10 +31,6 @@ object Card {
   val suits: List[String] = List("H", "D", "C", "S")
 
   // finds a numerical equivalent value for the face of the card
-  def value(face: String): Int = {
-    values.find(i => i._1 == face).get._2
-  }
-
   private val values: List[(String, Int)] = List(
     ("2", 2),
     ("3", 3),
@@ -42,9 +40,13 @@ object Card {
     ("7", 7),
     ("8", 8),
     ("9", 9),
-    ("10", 10),
+    ("T", 10),
     ("J", 11),
     ("Q", 12),
     ("K", 13),
     ("A", 14))
+
+  def value(face: String): Int = {
+    values.find(x => x._1 == face).get._2
+  }
 }
