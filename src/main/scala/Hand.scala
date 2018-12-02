@@ -35,3 +35,10 @@ class Hand (cards: List[Card]) {
 
   def stringDescription: String = cards.map(_.toString).mkString(" ")
 }
+
+object Hand {
+  def apply(cards: List[String]): Hand = {
+    val cardList = cards.collect { case cardString: String => new Card(cardString)}
+    new Hand(cardList)
+  }
+}
