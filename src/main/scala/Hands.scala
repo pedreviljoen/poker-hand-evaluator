@@ -1,7 +1,7 @@
 import HandTypes._
 
 object Hands {
-  def hands: List[HandType] = {
+  def types: List[HandType] = {
     List (
       new StraightFlush,
       new FourOfKind,
