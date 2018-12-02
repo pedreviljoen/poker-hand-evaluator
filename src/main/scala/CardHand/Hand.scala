@@ -1,16 +1,18 @@
+package CardHand
+
 class Hand (cards: List[Card]) {
   // sort hand according to value of face. A -> K -> Q -> J etc...
   def sortedHand: List[Card] = cards.sortWith(_.faceValue > _.faceValue)
 
   // evaluate the hand, runs through all hand types classes and checks a match
-  def evaluate(h: Hand): (Hand, HandType, List[Int]) = {
-    Hands.types.collect { case handType => handType.evaluate(h)}.find { case (b, hand, s) => b } match {
+  def evaluate(h: Hand): (Hand, HandType) = {
+    Hands.types.collect { case handType => handType.evaluate(h)}.find { case (b, hand) => b } match {
       case None           => throw new Error("Something went wrong")
-      case Some(handType) => (h, handType._2, handType._3)
+      case Some(handType) => (h, handType._2)
     }
   }
 
-  // other evaluations. ie Valid Hand, Same suit, consecutive numbers, grouping (for pair, three of kind and four of kind)
+  // other evaluations. ie Valid CardHand.Hand, Same suit, consecutive numbers, grouping (for pair, three of kind and four of kind)
   def isValidHand: Boolean = cards.length == 5
 
   def isSameSuit: Boolean = {

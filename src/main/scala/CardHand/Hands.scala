@@ -1,3 +1,5 @@
+package CardHand
+
 import HandTypes._
 
 object Hands {

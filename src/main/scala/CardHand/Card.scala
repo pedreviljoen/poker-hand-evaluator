@@ -1,3 +1,5 @@
+package CardHand
+
 import scala.util.matching.Regex
 
 case class Card(card: String) {
